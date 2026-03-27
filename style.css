@@ -6,7 +6,7 @@ body{
 
  /**{
     outline: solid 1px red;
-}**/    
+} /   
     
 
 /* form here is header section**/
@@ -518,18 +518,17 @@ font-family: Poppins;
      background-color: #F2643A;
      color: white;
      font-size: 19px;
-     background-color: red;
 }
 
 .words3{
     position: relative;
-    left: 40px;
+    left: 30px;
     font-family: Poppins;
     font-size: 10px;
     font-weight: bolder;
-    color: #B0B3B8;
     top: 25px;
-    width: 30px;
+    width: 350px;
+    color: #8A8F98;
 }
 
 #footer{
@@ -652,6 +651,7 @@ li{
 .pay{
     position: relative;
     left: 90px;
+    bottom: 35px;
     font-size: 14px;
     color: #8A8F98;
     width: 300px;
@@ -665,57 +665,67 @@ li{
  }
 
  .buttons{
-   display: flex;
-   gap: 15px;
-   margin-left: 50px;
-   position: relative;
-   top: 10px;
-   background-color: blue;
- }
-
- .buttons1{
-    border: none;
-    border: solid 1px black;
-    width: 60px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: #2A2F36;
-    color: #FFFFFF;
- }
-
- .buttons4{
+    display: flex;
+    gap: 15px;
     position: relative;
-    top: 40px;
-    right: 230px;
-    border: none;
-    border: solid 1px black;
-    width: 90px;
-    height: 30px;
-    border-radius: 10px;
-    background-color: #2A2F36;
-    color: white;
- }
-
- .buttons2{
-   border: solid 1px black;
-   width: 250px;
-   height: 30px;
-   border-radius: 10px;
-   background-color: #2A2F36;
-   color: white; 
- }
-
- .buttons3{
-    border: none;
-    border: solid 1px black;
-    width: 150px;
-    height: 30px;
-    background-color: #2A2F36;
-    color: white;
-    border-radius: 10px;
- }
-
+    bottom: 20px;
  
+ }
+
+ .pay1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #2B2B2B;
+    width: 60px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #2B2B2B;
+ }
+
+ .pay2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #2B2B2B;
+    width: 140px;
+    font-size: 15px;
+    border-radius: 10px;
+    height: 35px;
+    background-color: #2B2B2B;
+ }
+
+ .pay4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #2B2B2B   ;
+    width: 70px;
+    font-size: 13px;
+    height: 35px;
+    border-radius: 30px;
+    position: absolute;
+    top: 50px;
+    right: 140px;
+    background-color: #2B2B2B;
+
+
+}
+
+ .pay3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #2B2B2B;
+    width: 120px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: #2B2B2B;
+    font-size: 13px;
+ }
+
+
 
  .line2{
     position: relative;
@@ -740,7 +750,7 @@ li{
 
  .villages{
     position: relative;
-    left: 90px;
+    left: 40px;
     top: 35px;
     font-size: 25px;
     color: #8A8F98;
