@@ -6,7 +6,7 @@ body{
 
  /**{
     outline: solid 1px red;
-} /   
+}**/    
     
 
 /* form here is header section**/
@@ -462,9 +462,9 @@ font-family: Poppins;
     position: relative;
     left: 25px;
     font-family: Poppins;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: bolder;
-    width: 380px;
+    width: 350px;
 }
 
 
@@ -475,9 +475,9 @@ font-family: Poppins;
     color: white;
     position: relative;
     left: 15px;
-    font-size: 15px;
+    font-size: 13px;
     bottom: 20px;
-    width: 400px;
+    width: 350px;
 }
 
 
@@ -493,7 +493,7 @@ font-family: Poppins;
     left: 10px;
     border: none;
      border: solid 1px black;
-     width: 390px;
+     width: 360px;
      height: 70px;
      border-radius: 10px;
         
@@ -511,7 +511,7 @@ font-family: Poppins;
     left: 10px;
     border: none;
      border: solid 1px black;
-     width: 390px;
+     width: 360px;
      height: 70px;
      border-radius: 10px;
      text-align: center;
