@@ -1,0 +1,767 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Poppins;
+}
+
+ /**{
+    outline: solid 1px red;
+}**/    
+    
+
+/* form here is header section**/
+
+.head{
+    border: solid 1px black;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.spn1{
+border: solid 1px black;
+width: 20px;
+background-color: red;
+margin: 0px;
+padding: 0px;
+}
+
+.spn2{
+border: solid 1px black;
+width: 20px;
+}
+
+.spn3{
+border: solid 1px  black;
+width: 20px;
+
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    position: relative;
+     bottom: 60px;
+    left: 160px;
+}
+
+#loginbtn{
+    position: relative;
+    bottom: 95px;
+    left: 280px;
+    border: none;
+    border: solid 1px black;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+
+}
+
+.icon1{
+    position: relative;
+    bottom: 135px;
+    left: 330px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#hide{
+ border: solid 1px black;
+ width: 100%;
+ height: 110px;
+ 
+
+}
+.bar{
+    display: flex;
+     flex-direction: column;
+     padding-top: 10px;
+     gap: 40px;
+     position: relative;
+     padding-left: 10px;
+}
+
+/** ends here **/
+
+
+
+/** from here is body section**/
+.card{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 100%;
+    height: 650px;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    
+}
+
+.text{
+    font-size: 30px;
+    font-family:Helvetica, Arial, sans-serif ;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: 80px;
+    top: 25px;
+    
+    
+}
+
+
+#butn1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border: solid 1px black;
+  width: 170px;
+  height: 40px;position: relative;
+  right: 77px;
+  top: 30px;
+  font-family: Poppins;
+  font-weight: bolder;
+}
+
+.design{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text1{
+  position: relative;
+  right: 55px;
+  top: 30px;
+  font-size: 13px;
+  font-weight: bolder;
+  font-family: Poppins;
+}
+
+.text2{
+position: relative;
+top: 18px;
+right: 60px;
+font-size: 13px;
+font-weight: bolder;
+font-family: Poppins;
+
+}
+/** its ends here**/
+/** from here is next body section with only image**/
+.card2{
+    display: flex;
+    justify-content: center;
+    border: solid 1px  black;
+    align-items: center ;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+ 
+}
+
+.imge{
+    position: relative;
+    right: 1px;
+    top: 50px;
+    width: 100%;
+    height: 270px;
+    background-image: url(image/leo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+/** its ends here **/
+
+
+/** from here is second body section**/
+.card3{
+    border: solid 1px black;
+    width: 100%;
+    height: 1000px;
+    background-color: black;
+}
+
+.text4{
+    position: relative;
+    left: 20px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+}
+
+.text5{
+    position: relative;
+    left: 20px;
+    color: white;
+    font-size: 15px;
+    width: 300px;
+
+}
+
+
+.parent-cards{
+    width:100%;
+    height: 400px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 15px;
+    
+
+    
+}
+
+.cards1{
+    border: solid 1px black;
+    width: 150px;
+    height: 170px;
+    background-color: black;
+     border-radius: 5px;
+     background-color: white;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     object-fit: fit;
+     margin: 0px;
+     padding: 0px;
+     position: relative;
+     bottom: 60px;
+     margin-top: 60px;
+     z-index: 99;
+     
+}
+
+
+.cards2{
+    position: relative;
+    top: 155px;
+    border-radius: 5px;
+    border-left: solid 1px rgba(255,255,255,0.5);
+    border-right: solid 1px rgba(255,255,255,0.5);
+    border-bottom: solid 1px rgba(255,255,255,0.5);
+    width: 148px;
+    font-size: 9px;
+    height: 85px;
+    color: white;
+    font-family: Poppins;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+ 
+
+.space{
+    position: relative;
+    left: 15px;
+    color: white;
+}
+
+.city{
+    position: relative;
+    top: 100px;
+    border: solid 1px black;
+    width: 100%;
+    height: 670px;
+    color: white;
+    display: flex;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+}
+
+.city1{
+    position: relative;
+    left: 45px;
+    font-size: 25px;
+    width: 270px;
+    color: white;
+    font-weight: bolder;
+    font-family:Poppins ;  
+}
+
+.card3{
+    width: 100%;
+    height: 900px;
+    background-color:  black;
+    color: black;
+}
+
+#button2{
+    position: relative;
+    bottom: 10px;
+    left: 49px;
+    width: 200px;
+    height: 60px;
+    font-weight: bolder;
+    font-family:Poppins ;
+    font-size: 15px;
+      
+    
+}
+
+.imgejozi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    width: 370px;
+    height: 350px;
+    background-color: white;
+    background-image: url(image/joziHome.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: fit;
+    background-size: cover;
+}
+
+.imgejo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+
+.imges{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 100%;
+    height: 700px;
+   background-color: black;
+   margin-top: 30px;
+}
+
+
+.imges1{
+    position: relative;
+    left: 25px;
+    top: 65px;
+    width: 370px;
+    height: 350px;
+    opacity: 0.5;
+    background-image: url(image/0438f92c-ce93-4b4c-add2-c562b0fef64e-1765434512467-20251211_0825_Centered20Panda20Print_remix_01kc6194v3ekrbez7gg665k4tf.webp);
+}
+
+.words{
+  position: relative;
+  bottom: 70px;
+  width: 300px;
+  left: 53px;  
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.explore{
+    position: relative;
+    left: 53px;
+    bottom: 50px;
+    width: 240px;
+    height: 80px;
+    font-family:Poppins ;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.images2{
+    position: relative;
+    left: 25px;
+    bottom: 20px;
+    border: solid 1px white;
+    width: 370px;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(image/1766421787056-60v42hgf.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: fit;
+    opacity: 0.5;
+}
+
+.edge{
+   position: relative;
+   bottom: 150px;
+   left: 55px;
+  color: white;
+  width: 300px;
+}
+
+.our{
+    position: relative;
+    bottom: 150px;
+    left: 55px;
+    width: 140px;
+    height: 80px;
+    font-family:Poppins ;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/** its ends here second body section**/
+
+/** from here is the subscribe page **/
+
+#subscribe{
+    position: relative;
+    top: 870px;
+    border: solid 1px black;
+    width: 100%;
+    height: 500px;
+    background-color:  black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+
+.village{
+    position: relative;
+    left: 25px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 380px;
+}
+
+
+
+.words1{
+    font-family: Poppins;
+    font-weight: bolder;color: red; 
+    color: white;
+    position: relative;
+    left: 15px;
+    font-size: 15px;
+    bottom: 20px;
+    width: 400px;
+}
+
+
+.words2{
+    position: relative;
+    left: 80px;
+    width: 300px;
+}
+
+
+.input1{
+    position: relative;
+    left: 10px;
+    border: none;
+     border: solid 1px black;
+     width: 390px;
+     height: 70px;
+     border-radius: 10px;
+        
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.button1{
+    position: relative;
+    left: 10px;
+    border: none;
+     border: solid 1px black;
+     width: 390px;
+     height: 70px;
+     border-radius: 10px;
+     text-align: center;
+     background-color: #F2643A;
+     color: white;
+     font-size: 19px;
+}
+
+.words3{
+    position: relative;
+    left: 40px;
+    font-family: Poppins;
+    font-size: 10px;
+    font-weight: bolder;
+    color: #B0B3B8;
+    top: 25px;
+    width: 30px;
+}
+
+#footer{
+    position: relative;
+    top: 820px;
+    border: solid 1px black;
+    width: 100%;
+    height: 390px;
+    background-color: black;
+    color: white;
+}
+
+#infor{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    border: solid 1px black;
+    width: 100%;
+    height: 300px;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 13px;
+    color: #8A8F98;
+    list-style: none;
+
+}
+
+.infor2{
+    position: relative;
+    left: 190px;
+    width: 150px;
+    bottom: 170px;
+}
+
+ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.help{
+    position: relative;
+    left: 40px;
+    color: white;
+    width: 100px;
+}
+
+.infor1{
+    position: relative;
+    right: 25px;
+    width: 150px;
+}
+
+.shop{
+    position: relative;
+    left: 40px;
+    color: white;
+    width: 300px;
+}
+
+.infor3{
+    position: relative;
+    right: 20px;
+    width: 150px;
+    bottom: 130px;
+    
+}
+
+.company{
+    position: relative;
+    left: 40px;
+    color: white;
+    width: 300px;
+}
+
+.infor4{
+    position: relative;
+    width: 100px;
+    bottom: 310px;
+    left: 190px;
+
+}
+
+.jozi{
+    width: 170px;
+}
+
+.south{
+    width: 150px;
+}
+
+.address{
+position: relative;
+left: 35px;
+color: white;
+width: 170px;
+}
+
+li{
+    margin-top: 10px;
+}
+
+/** from here is a line */
+.line{
+    position: relative;
+    top: 60px;
+    border: solid 1px #65707A;
+    width: 360px;
+    left: 25px;
+    background-color: black;
+}
+
+.divline{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+}
+
+.pay{
+    position: relative;
+    left: 90px;
+    font-size: 14px;
+    color: #8A8F98;
+    width: 300px;
+}
+
+
+ #payment{
+    position: relative;
+    top: 10px;
+    width: 100%;
+ }
+
+ .buttons{
+   display: flex;
+   gap: 15px;
+   margin-left: 50px;
+   position: relative;
+   top: 10px;
+   background-color: blue;
+ }
+
+ .buttons1{
+    border: none;
+    border: solid 1px black;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2A2F36;
+    color: #FFFFFF;
+ }
+
+ .buttons4{
+    position: relative;
+    top: 40px;
+    right: 230px;
+    border: none;
+    border: solid 1px black;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #2A2F36;
+    color: white;
+ }
+
+ .buttons2{
+   border: solid 1px black;
+   width: 250px;
+   height: 30px;
+   border-radius: 10px;
+   background-color: #2A2F36;
+   color: white; 
+ }
+
+ .buttons3{
+    border: none;
+    border: solid 1px black;
+    width: 150px;
+    height: 30px;
+    background-color: #2A2F36;
+    color: white;
+    border-radius: 10px;
+ }
+
+ 
+
+ .line2{
+    position: relative;
+    border: solid 1px #65707A;
+    left: 20px;
+    top: 200px;
+    width: 360px;
+
+ }
+ .lastfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    width: 100%;
+    height: 240px;
+    background-color: black;
+    
+ }
+
+ .villages{
+    position: relative;
+    left: 90px;
+    top: 35px;
+    font-size: 25px;
+    color: #8A8F98;
+    width: 200px;
+ }
+
+ .right{
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    color: #8A8F98;
+
+ }
+
+
+ /**from here is the new page new section**/
+
+ #newpage{
+    border: solid 1px black;
+    width: 100%;
+    background-color: red;
+    height: 400px;
+    color: red;
+ }
+
